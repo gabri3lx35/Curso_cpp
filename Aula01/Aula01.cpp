@@ -4,9 +4,13 @@ using namespace std;
 // void = nulo ou seja a função não retorna nada
 // int = inteiro, função retorna um inteiro
 
+
+// main = significa que é a função principal a função main
 int main(){
-  // main = significa que é a função principal a função main
-  cout << "Olá, Mundo em C++";
+  // cout = função que seria a "printf" do C, função para "escrever na tela"
+  cout << "Olá, Mundo em C++" << endl;
+  //Fazer codigo esperar um entrada de tecla para finalizar
   system("pause");
+  //Rertono "0"
   return 0;
 }
