@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-  int n1,n2;
+  int n1,n2,n3;
   n1=0;
   n2=10;
   //Incremento de 1 valor em uma variavel, da forma "Normal"
@@ -38,5 +38,16 @@ cout << n2 << "\n";
 n2 = n2 / 5;
 n2/=2;
 cout << n2 << "\n";
+
+//  Operadores pós e pré-fixados
+  n3=10;
+  cout << n3 << "\n";
+  //n3--;Desse modo n vai mudar, pq execução sera na proxima linja
+  cout << n3++ << "\n"; //pós-fixado, ele primeiro usa a variavel no cout ou seja ele primeiro imprime o valor que é 10 e após isso ele adiciona 1
+  //--n3; Desse modo n vai mudar, pq execução sera na proxima linja
+  cout << ++n3 << "\n"; // pré-fixado- ele primeiro adiciona 1 a variavel, e depois ele usa o valor de variavel no cout.
+
+  
+
   return 0;
 }
