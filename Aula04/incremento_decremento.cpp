@@ -42,7 +42,7 @@ cout << n2 << "\n";
 //  Operadores pós e pré-fixados
   n3=10;
   cout << n3 << "\n";
-  //n3--;Desse modo n vai mudar, pq execução sera na proxima linja
+  //n3--;Desse modo n vai mudar, pq execução sera na proxima linha
   cout << n3++ << "\n"; //pós-fixado, ele primeiro usa a variavel no cout ou seja ele primeiro imprime o valor que é 10 e após isso ele adiciona 1
   //--n3; Desse modo n vai mudar, pq execução sera na proxima linja
   cout << ++n3 << "\n"; // pré-fixado- ele primeiro adiciona 1 a variavel, e depois ele usa o valor de variavel no cout.
