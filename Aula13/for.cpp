@@ -2,8 +2,10 @@
 using namespace std;
 
 int main (){
-  
-  for(int i=11; i < 10; i++){
-    cout << i;
+  int x,y;
+  for(x=0,y=1; x < 10; x++, y+=2){
+    cout << "x: " << x;
+    cout << "y: " << y;
+    
   }
 }
