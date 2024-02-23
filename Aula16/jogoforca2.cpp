@@ -34,15 +34,12 @@ int main (){
     cout << "\n\nDigite sua letra: ";
     cin >> letra[0];
     //troca # pela letra
-
-  
   for(i=0; i < tam; i++){
     //secreta palavra tampada, letra é a letra atual digitada
     if(secreta[i] == letra[0]){
       existeLetra = true;
       break;
     }
-
     if(!existeLetra){
     for(i=0; i < tam; i++){
       if(palavra[i] == letra[0]){
@@ -51,7 +48,6 @@ int main (){
       }
     }
   }
-
   for(i=0; i < tam; i++){
     if(palavra[i] == letra[0]){
       acerto = true;
@@ -60,7 +56,6 @@ int main (){
     }
   }
   //verefica se tem letra na letra
-  
   }
   if(!acerto){
     chances --;
@@ -75,6 +70,5 @@ int main (){
     cout << "FFFF" << "\n";
   }
   }
-
  return 0;
 }
