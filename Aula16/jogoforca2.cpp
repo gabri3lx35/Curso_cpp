@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//tenho que fazer melhorias no codigo.
 int main (){
   char palavra[30],secreta[30],letra[1];
   int tam,i,chances,acertos;
