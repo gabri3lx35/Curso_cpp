@@ -66,11 +66,11 @@ int main(){
                     acertos++;
                 }
             }
-            if (!acerto) 
-                chances--;
-        }
-  acerto=false;
-  system("clear");
+if (!acerto){ 
+  chances--;
+}
+acerto=false;
+system("clear");
  
 
   if(acertos == tam){
@@ -92,4 +92,5 @@ int main(){
   }
 */
   return 0;
+}
 }
