@@ -7,11 +7,10 @@ int main(){
   stack <string> cartas;
 
  //.push adiciona elemento dentro de uma pilha
-  cartas.push("Rei de copas");
-  cartas.push("Rei de espadas");
-  cartas.push("Rei de ouros");
-  cartas.push("Rei de paus");
-
+  cartas.push("Rei de copas");//4
+  cartas.push("Rei de espadas");//3
+  cartas.push("Rei de ouros");//2
+  cartas.push("Rei de paus");//1
   //size tamanho da pilha
   cout << "Tamanho da pilha: " << cartas.size() << "\n";
 
