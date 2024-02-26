@@ -14,6 +14,7 @@ int main (){
   cout << "Seu jogo da forca começa" << "\n";
   cout << "Digite palavra: ";
   cin >> palavra;
+  system("clear");
   //condição for verdadeira. contar numero de letras e indices
   while(palavra[i] != '\0'){
     i++;
@@ -44,7 +45,6 @@ int main (){
     for(i=0; i < tam; i++){
       if(palavra[i] == letra[0]){
         secreta[i] = palavra[i];
-
       }
     }
   }
