@@ -15,6 +15,7 @@ int main (){
 
 
 
+
    /*
   cout << p << "\n";//p=vetor
 
