@@ -20,7 +20,6 @@ struct Personagem{
     mana=In_mana;
     lvl=In_lvl;
 
-  
   }
 
   void mostra(){
@@ -80,8 +79,6 @@ int main (){
 
 
 
-
-
  //loop do game
  while (Player.vida > 0){
  //entrada de dados == Criação do personagem
@@ -121,7 +118,7 @@ int main (){
       cout << "\n";
       Player.mostra();
   }else if(opc == 4){
-
+    Player.vida=0;
   }
   
  }
