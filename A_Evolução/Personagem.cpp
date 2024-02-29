@@ -4,8 +4,7 @@
 using namespace std;
 
 struct Personagem{
-  string nome;
-  string classe;
+  string nome,classe;
   int def, atk, xp, vida, mana, lvl;
 
  //Playear
