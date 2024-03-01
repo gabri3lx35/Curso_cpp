@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 // me propus a explorar o struc como metodo de estudo criei esse arquivo.
 //classes [mago, guerreiro, arqueiro]
 using namespace std;
@@ -123,7 +124,7 @@ int main (){
   }
   
  }
- 
+
  }
   return 0;
 }
