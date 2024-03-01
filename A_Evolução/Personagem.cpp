@@ -37,6 +37,8 @@ struct Inimigos{
   int def;
   int atk;
 
+
+  
   void insere(string In_nome="Sem nome", int In_vida=10, int In_def=10, int In_atk=10){
     nome=In_nome;
     vida=In_vida;
