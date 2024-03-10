@@ -6,7 +6,7 @@
 *.lo
 *.o
 *.obj
-*./build
+/Curso_cpp/PooEmCpp/buil
 
 # Precompiled Headers
 *.gch
