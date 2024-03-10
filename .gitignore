@@ -34,4 +34,5 @@
 
 *.kdev4
 *.txt
-/build
+!**/build/
+
