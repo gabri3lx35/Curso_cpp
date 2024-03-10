@@ -6,7 +6,7 @@
 *.lo
 *.o
 *.obj
-PooEmCpp/buil
+
 
 # Precompiled Headers
 *.gch
@@ -34,4 +34,4 @@ PooEmCpp/buil
 
 *.kdev4
 *.txt
-
+/build
