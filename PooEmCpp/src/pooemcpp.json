@@ -1,9 +1,0 @@
-{
-    "KPlugin": {
-        "Description": "PooEmCpp",
-        "Id": "pooemcpp",
-        "Name": "PooEmCpp"
-    },
-    "X-KDevelop-Category": "Global",
-    "X-KDevelop-Mode": "GUI"
-}
