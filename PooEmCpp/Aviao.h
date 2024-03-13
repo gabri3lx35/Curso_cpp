@@ -9,11 +9,11 @@ class Aviao {
 
     public:
         int vel=0;
-        int velMax;
         std::string modelo;
         Aviao(int tp);
         void status();
     private:
+        int velMax;
 };
 
     Aviao::Aviao(int tp){
